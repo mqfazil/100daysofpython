@@ -1,0 +1,13 @@
+print("===your adventure simulator===") 
+print("""I'm going to ask you a bunch of questions 
+and create an epic story with you as a star!""")
+print()
+name = input("What is your knight's name? ")
+enemy = input("What is your worst enemy’s name? ")
+superpower = input("What is your superpower? ")
+print()
+print("\033[1;31mHello, brave knight!\033[0m")
+print("Our tale begins as our hero approaches a dark castle...")
+print("Suddenly, a bolt of lightning strikes the ground at the feet of " + name + ", who sees a figure appear.")
+print("The knight says, “Who are you?”")
+print("The evil knight says, “I am " + enemy + ", and today, I will defeat you!")
